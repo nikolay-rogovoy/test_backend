@@ -1,0 +1,26 @@
+{
+    "name": "test_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build && cd dist && node app.js",
+        "tsc": "tsc",
+        "tsc-w": "tsc -w",
+        "build": "npm run tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pg": "^7.4.3",
+        "pg-hstore": "^2.3.2",
+        "rxjs": "^5.5.5",
+        "sequelize": "^4.37.8",
+        "sequelize-cli": "^4.0.0",
+        "typescript": "^2.8.3"
+    },
+    "devDependencies": {
+        "@types/node": "^10.1.2",
+        "@types/sequelize": "^4.27.20"
+    }
+}
